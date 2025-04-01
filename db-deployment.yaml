@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: docker.io/amritrathore/project1:dbserver-1.0
+        image: docker.io/mysql
         env:
         - name: MYSQL_ROOT_PASSWORD
           valueFrom:
