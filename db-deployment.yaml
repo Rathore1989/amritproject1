@@ -31,8 +31,8 @@ spec:
   - metadata:
       name: mysql-persistent-storage
     spec:
-      accessModes: [ "ReadWriteOnce" ]
+      accessModes:
+        - ReadWriteOnce
       resources:
         requests:
           storage: 1Gi
-      storageClassName: azurefile-csi-premium
