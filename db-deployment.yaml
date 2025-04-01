@@ -14,8 +14,8 @@ spec:
         app: mysql
     spec:
       containers:
-      - name: mysql:8.0
-        image: docker.io/mysql
+      - name: mysql
+        image: docker.io/mysql:8.0
         env:
         - name: MYSQL_ROOT_PASSWORD
           valueFrom:
