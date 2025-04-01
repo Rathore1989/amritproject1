@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: docker.io/amritrathore/project1:webserver-1.0
+        image: amritrathore/project1:webserver-1.0
         ports:
         - containerPort: 80
