@@ -4,6 +4,7 @@ metadata:
   name: webapp-ingress
   namespace: project1
 spec:
+  ingressClassName: nginx
   rules:
   - host: amrit.project1.com
     http:
