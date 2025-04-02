@@ -4,7 +4,7 @@ metadata:
   name: webapp-service
   namespace: project1
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: webapp
   ports:
